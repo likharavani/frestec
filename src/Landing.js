@@ -7,27 +7,29 @@ import Buton from "./Buton.js";
 
 const Landing = () => {
   return (<>
-    <div className="container-fluid">
-       <img src={img1} className="img-fluid"></img>
-    </div>
-    <div className="home-section-1 text-white">
+    
+      <div className="landing-image">
+        
+      </div>
+    
+    <div className="home-section-1 text-white bg-color">
       <div className="row">
-        <div className="col-12 col-sm-12 col-md-5 col-lg-5">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-5 pt-5">
           <img src={img2} className="img-fluid"></img>
         </div>
-        <div className="col-12 col-sm-12 col-md-3 col-lg-3 p-4">
-        <div className="mt-3 text-sm-start">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-3 p-4">
+        <div className="mt-3 text-sm-start text-md-end">
            <Box/>
          </div>
          <div className="mt-3 text-end text-lg-start text-md-start">
            <Box/>
          </div>
         </div>
-        <div className="col-12 col-sm-12 col-md-3 col-lg-3 mt-5 p-4 ">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-3 mt-5 p-4 ">
          <div className="mt-3 text-lg-end text-start text-md-end">
            <Box/>
          </div>
-         <div className="mt-3 text-lg-end text-end">
+         <div className="mt-3 text-lg-end text-end text-md-start">
            <Box/>
          </div>
         </div>
