@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
   max-width:100vw;  
+
 }
 :root{
   --primary:#38bde6;
@@ -34,10 +35,7 @@ height:300vh;
 .landing-image img{
   width:100%;height:100%;
 }
-.home-section-1{
 
-
-}
 /*buuton styling*/
 .button {
   position: relative;
@@ -75,7 +73,23 @@ height:300vh;
   --size: 400px;
 }
 
-@media only screen and (max-width:1024px)
+.circle{
+  width:5.5rem;
+  height:1.6rem;
+  background-color: var(--primary);
+  border-radius: 5.5rem;
+}
+@media only screen and (max-width:768px)
 {
-  
+  .circle{
+    width:1.6rem;
+    height:1.6rem;
+  }
+}
+@media only screen and (max-width:555px)
+{
+  .circle{
+    width:2rem;
+    height:1.6rem;
+  }
 }
